@@ -1,0 +1,17 @@
+#!/bin/bash
+fstabFile="/etc/hosts"
+
+printf "\n%s\t%s" "192.168.40.1" "router" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.2" "office" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.3" "beelink" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.4" "mythbox" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.6" "calista-ipad" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.7" "minitop" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.8" "house-phone" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.9" "pam-iphone" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.10" "roku3" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.11" "roku2" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.13" "selphy" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.14" "rpi3 raspberrypi" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.15" "sabre-wireless" | sudo tee -a "$fstabFile"
+printf "\n%s\t%s" "192.168.40.25" "sabre-wired" | sudo tee -a "$fstabFile"
